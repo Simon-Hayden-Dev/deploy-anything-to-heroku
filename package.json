@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "build": "nx build next-app",
-    "start": "nx start next-app"
+    "start": "cd apps/next-app/ && next start"
   },
   "private": true,
   "dependencies": {
