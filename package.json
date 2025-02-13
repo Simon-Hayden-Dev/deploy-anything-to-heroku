@@ -2,7 +2,10 @@
   "name": "@deploy-anything-to-heroku/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "nx build next-app",
+    "start": "nx start next-app"
+  },
   "private": true,
   "dependencies": {
     "next": "~15.1.4",
