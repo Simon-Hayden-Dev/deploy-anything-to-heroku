@@ -65,8 +65,11 @@ build_commit_message () {
 # BUILDING
 # 🛠️ 🛠️ 🛠️ 🛠️ 🛠️ 🛠️ 🛠️
 echo "🛠️ Building app..."
-echo 
+echo
+
+pnpm install
 nx build next-app
+
 echo
 echo "🛠️ Building app done"
 echo
