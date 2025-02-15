@@ -9,8 +9,8 @@ set -e
 #   git
 #   heroku
 #     Logged in and
-#     With created Heroku project (see heroku create). Update the HEROKU_PROJECT
-#      config (see below) to the correct app name.
+#     With created Heroku project (see "heroku create"). Update the
+#      HEROKU_PROJECT config (see below) to the correct app name.
 #   jq
 #   pushd & popd (should be built-in into all UNIX shells)
 # 📥 📥 📥 📥 📥 📥 📥
@@ -74,10 +74,10 @@ echo
 
 # PACKAGE
 # 📦 📦 📦 📦 📦 📦 📦
-# Make sure the build folder is completely empty before we start
 echo "📦 Packaging the app..."
 echo
 echo "📦 Clearing & creating folder" "$BUILD_FOLDER"
+# Make sure the build folder is completely empty before we start
 rm -rf "$BUILD_FOLDER"
 mkdir "$BUILD_FOLDER"
 
